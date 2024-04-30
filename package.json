@@ -1,0 +1,20 @@
+{
+  "name": "collector",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node bundler.js --watch",
+    "build": "node bundler.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.24.5",
+    "@babel/preset-env": "^7.24.5",
+    "cheerio": "^1.0.0-rc.12",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0"
+  }
+}
